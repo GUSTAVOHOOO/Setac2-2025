@@ -9,7 +9,7 @@ const courses = [
   {
     id: 1,
     title: " Minha IA não só vê, como também (acha que) explica!",
-    speaker: "Lucas Buligon",
+    speaker: "Lucas Buligon Antunes",
     image: "/buligon.jpg",
     date: "11/11",
     time: "09:00 - 11:00",
