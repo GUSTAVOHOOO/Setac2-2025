@@ -8,24 +8,24 @@ import { CourseModal } from "./course-modal"
 const courses = [
   {
     id: 1,
-    title: "Introdução à Inteligência Artificial",
-    speaker: "Prof. Ana Silva",
-    image: "/professional-woman-professor-ai-technology.jpg",
-    date: "14/08",
+    title: " Minha IA não só vê, como também (acha que) explica!",
+    speaker: "Lucas Buligon",
+    image: "/buligon.jpg",
+    date: "11/11",
     time: "09:00 - 11:00",
     description:
-      "Uma introdução acessível à IA, abordando fundamentos de aprendizado de máquina e aplicações reais no contexto acadêmico e industrial.",
+      " Nesta oficina prática, vamos construir um pipeline 2-em-1: uma IA que detecta os objetos e uma integração com o Gemini que usa essa informação para analisar o contexto. Você vai sair daqui com um sistema que não só vê, como também (acha que) explica a cena inteira.",
     link: "https://forms.gle/inscricao1",
   },
   {
     id: 2,
-    title: "Design de Interfaces Futuristas",
-    speaker: "Lucas Moreira",
-    image: "/professional-man-designer-futuristic-ui.jpg",
-    date: "15/08",
-    time: "10:00 - 12:00",
+    title: "Do zero ao deploy: desenvolvimento de Aplicativo Mobile",
+    speaker: "Alecsander Johan Pontes de Andrade",
+    image: "/alecssander.jpeg",
+    date: "11/11",
+    time: "14:00 - 18:00",
     description:
-      "Workshop prático sobre design inspirado em temas cyberpunk e sci-fi, com foco em UX moderna e estética digital.",
+      "Um mergulho prático no desenvolvimento de aplicativos móveis, explorando todo o ciclo de criação — do backend ao frontend. Serão abordados fundamentos de desenvolvimento fullstack, arquitetura e padrões de projeto, bancos de dados não relacionais, e segurança da informação com foco em autenticação. O curso também cobre versionamento de código, observabilidade em apps móveis e os princípios essenciais de CI/CD, preparando você para construir aplicações modernas, seguras e escaláveis.",
     link: "https://forms.gle/inscricao2",
   },
   {
