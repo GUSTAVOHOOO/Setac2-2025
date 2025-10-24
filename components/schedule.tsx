@@ -6,47 +6,37 @@ import { useRef } from "react"
 
 const schedule = [
   {
-    day: "Segunda-feira",
-    date: "12/08",
+    day: "Terca-Feira",
+    date: "11/11",
     events: [
-      { time: "09:00", title: "Abertura Oficial", type: "Cerimônia" },
-      { time: "10:30", title: "Palestra: O Futuro da IA", type: "Palestra" },
-      { time: "14:00", title: "Workshop: React na Prática", type: "Oficina" },
-    ],
-  },
-  {
-    day: "Terça-feira",
-    date: "13/08",
-    events: [
-      { time: "09:00", title: "Mesa Redonda: Inovação Acadêmica", type: "Mesa" },
-      { time: "13:30", title: "Mini Curso: Python para Dados", type: "Curso" },
+      { time: "09:00", title: "Cerimônia de Abertura", type: "Cerimônia" },
+      { time: "10:30", title: "Palestra de Abertura", type: "Palestra" },
+      { time: "11:00", title: "Minha IA não só vê, como também (acha que) explica!", type: "Oficina" },
+      { time: "13:00", title: "Workshop: Git & GitHub", type: "Oficina" },
+      { time: "14:00", title: "Do zero ao deploy: desenvolvimento de Aplicativo Mobile", type: "Oficina" },
     ],
   },
   {
     day: "Quarta-feira",
-    date: "14/08",
+    date: "12/11",
     events: [
-      { time: "09:00", title: "Introdução à Inteligência Artificial", type: "Curso" },
-      { time: "14:00", title: "Palestra: Blockchain e Web3", type: "Palestra" },
+      { time: "09:00", title: "Mesa Redonda: Incubados Sprint", type: "Mesa" },
+      { time: "11:30", title: "Spring Boot na Prática: Construindo APIs que Voam", type: "Curso" },
+      { time: "12:30", title: "Unity: do zero a um projeto funcional", type: "Curso" },
+      { time: "14:00", title: "Palestra: Cybersegurança Essencial", type: "Palestra" },
+      { time: "17:00", title: "Introdução à AWS: Da Nuvem ao Lambda", type: "Curso" },
     ],
   },
   {
     day: "Quinta-feira",
-    date: "15/08",
+    date: "13/11",
     events: [
-      { time: "10:00", title: "Design de Interfaces Futuristas", type: "Workshop" },
-      { time: "15:00", title: "Mesa: Sustentabilidade Tech", type: "Mesa" },
-    ],
-  },
-  {
-    day: "Sexta-feira",
-    date: "16/08",
-    events: [
-      { time: "09:00", title: "Hackathon Final", type: "Competição" },
-      { time: "14:00", title: "Automação e Robótica Aplicada", type: "Curso" },
+      { time: "09:00", title: "Mesa Redonda com os Itercambistas", type: "Mesa" },
+      { time: "14:00", title: "Maratona de Programação", type: "Competição" },
       { time: "17:00", title: "Encerramento e Premiação", type: "Cerimônia" },
     ],
   },
+
 ]
 
 export function Schedule() {
