@@ -57,15 +57,40 @@ export function Hero() {
         transition={{ duration: 1 }}
       >
         {/* Logo ASCII centralizada */}
-        <div className="flex items-center justify-center w-full max-w-5xl min-h-[20rem] sm:min-h-[24rem] md:min-h-[28rem] lg:min-h-[30rem] xl:min-h-[32rem] mb-8 overflow-visible">
-          <ASCIIText
-            text="Setac²"
-            asciiFontSize={8}
-            textFontSize={40}       // ajustado para caber melhor
-            textColor="#ffffff"
-            planeBaseHeight={10}
-            enableWaves
-          />
+        <div className="flex items-center justify-center w-full mb-8">
+          {/* Mobile: container menor */}
+          <div className="relative w-full h-48 max-w-md sm:hidden">
+            <ASCIIText
+              text="Setac²"
+              asciiFontSize={5}
+              textFontSize={80}
+              textColor="#ffffff"
+              planeBaseHeight={6}
+              enableWaves
+            />
+          </div>
+          {/* Tablet: container médio */}
+          <div className="relative hidden sm:block md:hidden w-full h-64 max-w-2xl">
+            <ASCIIText
+              text="Setac²"
+              asciiFontSize={6}
+              textFontSize={120}
+              textColor="#ffffff"
+              planeBaseHeight={8}
+              enableWaves
+            />
+          </div>
+          {/* Desktop: container grande */}
+          <div className="relative hidden md:block w-full h-80 max-w-4xl lg:h-96 lg:max-w-5xl">
+            <ASCIIText
+              text="Setac²"
+              asciiFontSize={8}
+              textFontSize={180}
+              textColor="#ffffff"
+              planeBaseHeight={12}
+              enableWaves
+            />
+          </div>
           <h1 className="sr-only">Setac²</h1>
         </div>
 
