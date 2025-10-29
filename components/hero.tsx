@@ -59,13 +59,13 @@ export function Hero() {
         {/* Logo ASCII centralizada */}
         <div className="flex items-center justify-center w-full mb-8">
           {/* Mobile: container menor */}
-          <div className="relative w-full h-48 max-w-md sm:hidden">
+          <div className="relative w-full h-64 max-w-lg sm:hidden">
             <ASCIIText
               text="Setac²"
-              asciiFontSize={5}
-              textFontSize={80}
+              asciiFontSize={6}
+              textFontSize={120}
               textColor="#ffffff"
-              planeBaseHeight={6}
+              planeBaseHeight={8}
               enableWaves
             />
           </div>
