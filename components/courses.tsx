@@ -31,7 +31,7 @@ const courses = [
   {
     id: 3,
     title: "Unity: do zero a um projeto funcional",
-    speaker: "Jose Carlos Seben",
+    speaker: "Jose Carlos Seben de Souza Leite",
     image: "/jose.jpg",
     date: "12/11",
     time: "15:30 - 17:00",
@@ -42,7 +42,7 @@ const courses = [
   {
     id: 4,
     title: "Primeiros Passos na Nuvem com AWS",
-    speaker: "Wellington Ferreira",
+    speaker: "Wellington de Souza Ferreira",
     image: "/wellington.jpeg",
     date: "13/11",
     time: "10:00 - 12:00",
