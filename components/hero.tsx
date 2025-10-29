@@ -61,7 +61,7 @@ export function Hero() {
           <ASCIIText
             text="Setac²"
             asciiFontSize={8}
-            textFontSize={45}       // ajustado para caber melhor
+            textFontSize={40}       // ajustado para caber melhor
             textColor="#ffffff"
             planeBaseHeight={10}
             enableWaves

@@ -1,4 +1,5 @@
 import { Instagram, Linkedin } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -7,9 +8,28 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold text-[#00FF88] mb-4">UTFPR</h3>
-            <p className="text-[#9E9E9E] text-sm">Universidade Tecnológica Federal do Paraná</p>
+            <p className="text-[#9E9E9E] text-sm">Universidade Tecnológica Federal do Paraná Campus Santa Helena</p>
           </div>
 
+          {/* CACIC logo */}
+          <div className="flex items-center md:justify-center">
+            <a
+              href="https://www.instagram.com/cacic_sh/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center"
+              aria-label="CACIC - Centro Acadêmico de Ciências da Computação"
+            >
+              <Image
+                src="/cacic.svg"
+                alt="CACIC - Centro Acadêmico de Ciências da Computação"
+                width={160}
+                height={48}
+                className="h-14 w-auto opacity-90 hover:opacity-100 transition-opacity"
+                priority
+              />
+            </a>
+          </div>
 
 
           <div>
