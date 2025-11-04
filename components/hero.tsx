@@ -69,19 +69,19 @@ export function Hero() {
               enableWaves
             />
           </div>
-          {/* Tablet: container médio */}
-          <div className="relative hidden sm:block md:hidden w-full h-64 max-w-2xl">
+          {/* Tablet/Notebook: container médio ajustado */}
+          <div className="relative hidden sm:block lg:hidden w-full h-56 max-w-xl">
             <ASCIIText
               text="Setac²"
-              asciiFontSize={6}
-              textFontSize={120}
+              asciiFontSize={5}
+              textFontSize={100}
               textColor="#ffffff"
-              planeBaseHeight={8}
+              planeBaseHeight={6}
               enableWaves
             />
           </div>
           {/* Desktop: container grande */}
-          <div className="relative hidden md:block w-full h-80 max-w-4xl lg:h-96 lg:max-w-5xl">
+          <div className="relative hidden lg:block w-full h-80 max-w-4xl xl:h-96 xl:max-w-5xl">
             <ASCIIText
               text="Setac²"
               asciiFontSize={8}
