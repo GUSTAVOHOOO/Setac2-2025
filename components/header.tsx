@@ -58,6 +58,12 @@ export function Header() {
           >
             Palestras
           </button>
+          <button
+            onClick={() => scrollToSection("competicao")}
+            className="text-sm font-semibold hover:text-[#00FF88] transition-colors"
+          >
+            Competição
+          </button>
         </nav>
 
         <button
