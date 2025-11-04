@@ -76,14 +76,16 @@ export function CourseModal({ course, onClose }: CourseModalProps) {
 
               <p className="text-[#9E9E9E] leading-relaxed mb-8 text-pretty">{course.description}</p>
 
-              <a
-                href={course.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block w-full py-4 bg-[#00FF88] text-black text-center font-bold rounded hover:bg-[#0AFF9D] hover:shadow-[0_0_30px_rgba(0,255,136,0.5)] transition-all"
-              >
-                Inscreva-se Agora
-              </a>
+              {course.id !== 6 && (
+                <a
+                  href={course.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block w-full py-4 bg-[#00FF88] text-black text-center font-bold rounded hover:bg-[#0AFF9D] hover:shadow-[0_0_30px_rgba(0,255,136,0.5)] transition-all"
+                >
+                  Inscreva-se Agora
+                </a>
+              )}
             </div>
           </motion.div>
         </motion.div>

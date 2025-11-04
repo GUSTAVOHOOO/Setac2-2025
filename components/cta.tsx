@@ -34,20 +34,9 @@ export function CTA() {
             className="[text-shadow:0_0_20px_rgba(10,255,157,0.35)]"
           />
         </h2>
-        <p className="text-xl text-[#9E9E9E] mb-12 max-w-2xl mx-auto text-pretty">
+        <p className="text-xl text-[#9E9E9E] max-w-2xl mx-auto text-pretty">
           Não perca a oportunidade de fazer parte da maior semana acadêmica de tecnologia da UTFPR.
         </p>
-
-        <motion.a
-          href="https://forms.gle/inscricao"
-          target="_blank"
-          rel="noopener noreferrer"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          className="inline-block px-12 py-6 bg-[#00FF88] text-black text-xl font-black rounded-lg hover:bg-[#0AFF9D] hover:shadow-[0_0_40px_rgba(0,255,136,0.6)] transition-all"
-        >
-          INSCREVA-SE AGORA
-        </motion.a>
       </motion.div>
     </section>
   )

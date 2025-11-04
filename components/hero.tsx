@@ -114,7 +114,7 @@ export function Hero() {
             Ver Programação
           </button>
           <button
-            onClick={() => scrollToSection("inscricao")}
+            onClick={() => scrollToSection("cursos")}
             className="px-8 py-3 bg-[#00FF88] text-black rounded font-semibold hover:bg-[#0AFF9D] hover:shadow-[0_0_30px_rgba(0,255,136,0.5)] transition-all"
           >
             Inscreva-se

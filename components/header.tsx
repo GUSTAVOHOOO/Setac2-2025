@@ -30,7 +30,7 @@ export function Header() {
     >
       <div className="max-w-[1200px] mx-auto px-6 md:px-20 py-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
-          <div className="text-3xl font-bold text-[#00FF88]">CACIC</div>
+          <div className="text-3xl font-bold text-[#00FF88]">CACIC-SH</div>
         </div>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -64,7 +64,7 @@ export function Header() {
           onClick={() => scrollToSection("inscricao")}
           className="bg-[#00FF88] text-black px-6 py-2 rounded font-semibold text-sm hover:bg-[#0AFF9D] hover:shadow-[0_0_20px_rgba(0,255,136,0.5)] transition-all"
         >
-          Inscreva-se
+          Saiba mais 
         </button>
       </div>
     </motion.header>

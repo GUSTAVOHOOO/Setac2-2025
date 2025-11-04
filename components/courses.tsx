@@ -15,7 +15,7 @@ const courses = [
     time: "10:00 - 12:00",
     description:
       " Nesta oficina prática, vamos construir um pipeline 2-em-1: uma IA que detecta os objetos e uma integração com o Gemini que usa essa informação para analisar o contexto. Você vai sair daqui com um sistema que não só vê, como também (acha que) explica a cena inteira.",
-    link: "https://forms.gle/inscricao1",
+    link: "https://forms.gle/YqayDs37huNihGeS6",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const courses = [
     time: "14:00 - 18:00",
     description:
       "Um mergulho prático no desenvolvimento de aplicativos móveis, explorando todo o ciclo de criação — do backend ao frontend. Serão abordados fundamentos de desenvolvimento fullstack, arquitetura e padrões de projeto, bancos de dados não relacionais, e segurança da informação com foco em autenticação. O curso também cobre versionamento de código, observabilidade em apps móveis e os princípios essenciais de CI/CD, preparando você para construir aplicações modernas, seguras e escaláveis.",
-    link: "https://forms.gle/inscricao2",
+    link: "https://forms.gle/jyYoN6RVJvaiZWnb9",
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const courses = [
     time: "15:30 - 17:00",
     description:
       "Nosso mini curso será uma experiência teórica e prática sobre o desenvolvimento de jogos, abordando conceitos fundamentais, boas práticas e aspectos cognitivos do processo criativo. O foco principal será a engine Unity, onde trabalharemos em um projeto já estruturado, mas com detalhes faltando. Caberá aos participantes, com a orientação do instrutor, identificar e solucionar esses desafios, aplicando os conceitos aprendidos de forma prática",
-    link: "https://forms.gle/inscricao3",
+    link: "https://forms.gle/5CevhgxbNEYuMsG39",
   },
   {
     id: 4,
@@ -48,7 +48,7 @@ const courses = [
     time: "10:00 - 12:00",
     description:
       'Um mergulho inicial no universo da Amazon Web Services. Vamos entender o que é computação em nuvem, explorar os serviços essenciais da AWS e criar nossa primeira função Lambda na prática. Sem complicar, sem mistérios — só o prazer de descobrir como a nuvem pensa.',  
-    link: "https://forms.gle/inscricao4",
+    link: "https://forms.gle/g4pKa4mxJW1FNtLc6",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const courses = [
     time: "13:00 - 17:00",
     description:
       "Um encontro rápido e direto com o ecossistema Spring. A proposta é entender como o Spring Boot simplifica o desenvolvimento em Java e colocar a mão na massa construindo uma API funcional, com rotas, controle e persistência. Um passo firme rumo ao desenvolvimento profissional: da ideia ao endpoint, sem enrolação.",
-    link: "https://forms.gle/inscricao5",
+    link: "https://forms.gle/9irQJUGZm2qA212R8",
   },
   {
     id: 6,
