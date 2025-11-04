@@ -37,15 +37,17 @@ export function Competition() {
           <p className="text-[#9E9E9E] text-xl mb-8">Prove seu código. Resolva desafios. Suba no placar.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button
+            <a
+              href="https://forms.gle/ddokDH6dimceuh5e9"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => {
-                scrollToForm()
                 console.log("click_competicao_cta", { origin: "header" })
               }}
-              className="px-8 py-6 bg-[#00FF88] text-black text-lg font-black rounded-lg hover:bg-[#0AFF9D] hover:shadow-[0_0_30px_rgba(0,255,136,0.5)] transition-all"
+              className="px-8 py-6 bg-[#00FF88] text-black text-lg font-black rounded-lg hover:bg-[#0AFF9D] hover:shadow-[0_0_30px_rgba(0,255,136,0.5)] transition-all text-center"
             >
               Inscrever-se
-            </button>
+            </a>
             <button
               onClick={() => {
                 scrollToRules()
