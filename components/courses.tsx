@@ -47,20 +47,10 @@ const courses = [
     date: "13/11",
     time: "10:00 - 12:00",
     description:
-      'Um mergulho inicial no universo da Amazon Web Services. Vamos entender o que é computação em nuvem, explorar os serviços essenciais da AWS e criar nossa primeira função Lambda na prática. Sem complicar, sem mistérios — só o prazer de descobrir como a nuvem pensa.',  
+      'Um mergulho inicial no universo da Amazon Web Services. Vamos entender o que é computação em nuvem, explorar os serviços essenciais da AWS e criar nossa primeira função Lambda na prática. Sem complicar, sem mistérios — só o prazer de descobrir como a nuvem pensa.',  
     link: "https://forms.gle/g4pKa4mxJW1FNtLc6",
   },
-  {
-    id: 5,
-    title: "Java para o Mercado; Construindo sua Primeira API REST",
-    speaker: "Giuvanne Conti",
-    image: "/giuvanne.jpeg",
-    date: "12/11",
-    time: "13:00 - 17:00",
-    description:
-      "Um encontro rápido e direto com o ecossistema Spring. A proposta é entender como o Spring Boot simplifica o desenvolvimento em Java e colocar a mão na massa construindo uma API funcional, com rotas, controle e persistência. Um passo firme rumo ao desenvolvimento profissional: da ideia ao endpoint, sem enrolação.",
-    link: "https://forms.gle/9irQJUGZm2qA212R8",
-  },
+
   {
     id: 6,
     title: "Ataques DDoS, porque este Ataque tem sido foco de Atenção na Segurança de Redes",

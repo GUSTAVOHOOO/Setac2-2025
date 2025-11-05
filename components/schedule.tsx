@@ -22,8 +22,7 @@ const schedule = [
     events: [
       { time: "08:00", title: "Da Ideia à Inovação: A Experiencia de Incubar uma Empresa", type: "Mesa", location: "Auditório Principal" },
       { time: "10:00", title: "Ataques DDoS, porque este Ataque tem sido foco de Atenção na Segurança de Redes", type: "Palestra", location: "Auditório Principal" },
-      { time: "13:00", title: "Java para o Mercado; Construindo sua Primeira API REST", type: "Curso", location: "Laboratório 5" },
-      { time: "15:30", title: "Unity: do Zero a um Projeto Funcional", type: "Oficina", location: "Laboratório 5" }, 
+      { time: "15:30", title: "Unity: do Zero a um Projeto Funcional", type: "Oficina", location: "Laboratório E9" }, 
     ],
   },
   {
@@ -33,7 +32,7 @@ const schedule = [
       { time: "08:00", title: "Do Campus ao Mundo: Historias de Dupla Titulação", type: "Mesa", location: "Auditório Principal" },
       { time: "09:00", title: "Oportunidade de Pos-graduação na UTFPR-Santa Helena", type: "Palestra", location: "Auditório Principal" },
       { time: "10:00", title: "Primeiros Passos na Nuvem com AWS", type: "Oficina", location: "Laboratório 5" },
-      { time: "13:00", title: "Maratona de Programação", type: "Competição", location: "Laboratório 5" },
+      { time: "13:00", title: "Maratona de Programação", type: "Competição", location: "Laboratório E9" },
       { time: "17:30", title: "Encerramento e Premiação", type: "Cerimônia", location: "Auditório Principal" },
     ],
   },
