@@ -35,6 +35,7 @@ const schedule = [
     events: [
       { time: "08:00", title: "Do Campus ao Mundo: Historias de Dupla Titulação", type: "Mesa", location: "Auditório Principal" },
       { time: "09:00", title: "Oportunidade de Pos-graduação na UTFPR-Santa Helena", type: "Palestra", location: "Auditório Principal" },
+      { time: "09:45", title: "Coffee Break", type: "Intervalo", location: "Hall do Auditório" },
       { time: "10:00", title: "Primeiros Passos na Nuvem com AWS", type: "Oficina", location: "Laboratório 5" },
       { time: "13:00", title: "Maratona de Programação", type: "Competição", location: "Laboratório E9" },
       { time: "17:30", title: "Encerramento e Premiação", type: "Cerimônia", location: "Auditório Principal" },
