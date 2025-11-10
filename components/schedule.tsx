@@ -12,8 +12,10 @@ const schedule = [
     events: [
       { time: "08:00", title: "Recepção - Abertura Oficial da Semana Acadêmica", type: "Cerimônia", location: "Auditório Principal" },
       { time: "08:15", title: "O Mercado de Trabalho e Oportunidades no Ecossistema Iguassu Valley", type: "Palestra", location: "Auditório Principal" },
+      { time: "09:30", title: "Coffee Break", type: "Intervalo", location: "Hall do Auditório" },
       { time: "10:00", title: "Minha IA não só vê, como também (acha que) explica!", type: "Oficina", location: "Lab de Informática 5" },
       { time: "13:00", title: "Do zero ao deploy: desenvolvimento de aplicativo mobile", type: "Oficina", location: "Lab de Informática 5" },
+      { time: "18:00", title: "Coffee Break", type: "Intervalo", location: "Hall do Auditório" },
       ]
   },
   {
@@ -21,8 +23,10 @@ const schedule = [
     date: "12/11",
     events: [
       { time: "08:00", title: "Da Ideia à Inovação: A Experiencia de Incubar uma Empresa", type: "Mesa", location: "Auditório Principal" },
+      { time: "09:30", title: "Coffee Break", type: "Intervalo", location: "Hall do Auditório" },
       { time: "10:00", title: "Ataques DDoS, porque este Ataque tem sido foco de Atenção na Segurança de Redes", type: "Palestra", location: "Auditório Principal" },
-      { time: "15:30", title: "Unity: do Zero a um Projeto Funcional", type: "Oficina", location: "Laboratório E9" }, 
+      { time: "15:30", title: "Unity: do Zero a um Projeto Funcional", type: "Oficina", location: "Laboratório E9" },
+      { time: "18:00", title: "Coffee Break", type: "Intervalo", location: "Hall do Auditório" },
     ],
   },
   {
