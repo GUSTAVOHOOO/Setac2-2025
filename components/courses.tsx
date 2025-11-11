@@ -23,7 +23,7 @@ const courses = [
     speaker: "Alecsander Johan Pontes de Andrade",
     image: "/alecssander.jpeg",
     date: "11/11",
-    time: "14:00 - 18:00",
+    time: "13:00 - 17:00",
     description:
       "Um mergulho prático no desenvolvimento de aplicativos móveis, explorando todo o ciclo de criação — do backend ao frontend. Serão abordados fundamentos de desenvolvimento fullstack, arquitetura e padrões de projeto, bancos de dados não relacionais, e segurança da informação com foco em autenticação. O curso também cobre versionamento de código, observabilidade em apps móveis e os princípios essenciais de CI/CD, preparando você para construir aplicações modernas, seguras e escaláveis.",
     link: "https://forms.gle/jyYoN6RVJvaiZWnb9",
