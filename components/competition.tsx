@@ -147,11 +147,11 @@ export function Competition() {
               </CardHeader>
               <CardContent>
                 <CardDescription className="text-[#9E9E9E]">
-                  <strong className="text-white">1º Lugar:</strong> Medalha de ouro + certificado + brinde exclusivo
+                  <strong className="text-white">1º Lugar:</strong> Medalha de ouro + certificado + Combo Xis Filé
                   <br />
-                  <strong className="text-white">2º Lugar:</strong> Medalha de prata + certificado + brinde
+                  <strong className="text-white">2º Lugar:</strong> Medalha de prata + certificado + Combo Pizza Burg
                   <br />
-                  <strong className="text-white">3º Lugar:</strong> Medalha de bronze + certificado
+                  <strong className="text-white">3º Lugar:</strong> Medalha de bronze + certificado + Love Combo
                   <br />
                   <br />
                   Todos os participantes recebem certificado de participação.
@@ -177,8 +177,7 @@ export function Competition() {
               </AccordionTrigger>
               <AccordionContent className="text-[#9E9E9E]">
                 <p>
-                  Participantes podem competir individualmente (solo) ou em equipes de até 3 pessoas. Equipes devem
-                  compartilhar apenas um computador durante a prova. Todos os membros devem estar presentes e
+                  Participantes podem competir individualmente (solo) ou em equipes de até 3 pessoas. Todos os membros devem estar presentes e
                   registrados.
                 </p>
               </AccordionContent>
